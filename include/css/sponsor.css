@@ -1,0 +1,27 @@
+body {
+	background: whitesmoke;
+	color: black;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .01) !important;
+}
+
+.content ul {
+	padding-left: 0 !important;
+    animation-delay: 1.25s;
+    -moz-animation-delay: 1.25s;
+    -webkit-animation-delay: 1.25s;
+}
+
+.content li {
+	display: inline;
+	font-size: 115%;
+	text-decoration: underline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.content li a {
+	color: black;
+}

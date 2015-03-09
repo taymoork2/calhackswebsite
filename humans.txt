@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology
+
+/* TEAM */
+	Co-Creator: Taymoor Khan
+	taymoorkhan.tk
+	@taymoork2
+	Berkeley, CA
+
+	Co-Creator: Alphonse Owirka
+	@PhonZzBombs
+	Berkeley, CA
+
+/* THANKS */
+
+	Codrops- Morphing Buttons Concept by Mary Lou @crnacura: http://tympanus.net/codrops/2014/05/12/morphing-buttons-concept/
+
+/* SITE */
+	Last update: 2014/05/28
+	Language: English
+	Doctype: HTML5
+	Standards: HTML5, CSS3, Javascript
+	Components: Modernizr, jQuery, HTML5Shiv, CSS3 Media Queries, Skeleton CSS, HTML5 Boilerplate, Font Awesome, Geometria Light, Codrops - Morphin Buttons Concepts,
+	Software:  Sublime Text, Notepad++, Windows Live Movie Maker
