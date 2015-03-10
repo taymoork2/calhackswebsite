@@ -5,6 +5,7 @@ html, body {
 	color: white;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important;
 	-webkit-font-smoothing: antialiased !important;
+	color: rgba(0,0,0,0.8);
 }
 
 .overlay {
@@ -16,7 +17,7 @@ html, body {
 }
 
 #home {
-	min-height: 100vh;
+	height: 95vh;
 }
 
 #headerlogo {
@@ -25,8 +26,6 @@ html, body {
 
 .banner-info a {
 	color:#fff;
-	width: 25%;
-	border-bottom: 1px solid #fff;
 }
 
 .banner-info a:hover {
@@ -71,7 +70,154 @@ html, body {
 	-webkit-justify-content: center;
 	flex-direction: column;
 	-webkit-box-direction: column;
-	-moz-box-direction: column; 
+	-moz-box-direction: column;
 	-ms-flex-direction: column;
 	-webkit-flex-direction: column;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.button {
+	box-sizing: border-box;
+	padding: 15px 40px;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+.button.important {
+	background: #E04444;
+	border-color: #E04444;
+
+}
+
+.button.important:hover {
+	background: #E04444;
+	border-color: #E04444;
+	color: white;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: black;
+
+}
+
+.overlay-dark {
+	position: absolute;
+	height: 95vh;
+	width: 100%;
+	background-color: black;
+	opacity: 0.72
+}
+
+#home {
+}
+
+#home .container {
+	position: relative;
+}
+
+#home h1 {
+	font-size: 72px;
+	margin-bottom: 0.5em;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+#home .button {
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+#home .button:last-child {
+	margin-right: 0px;
+	color: #E04444;
+	border-color: #E04444;
+}
+
+#home .banner-info {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.event-info {
+	margin: auto;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.event-info .info-item {
+	margin-right: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	border-right: 2px solid #fff;
+}
+
+.event-info .info-item:last-child {
+	border: none;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.event-info img {
+	width: 100px;
+	opacity: 0.72;
+	border-radius: 50%;
+	margin: 0px 20px;
+}
+
+#logistics {
+	margin-top: 15px;
+	margin-bottom: 5%;
+	font-size: 18px;
+	opacity: 0.84
+}
+
+#schools {
+	margin-top: 5%
+}
+
+.social-media {
+	position: relative;
+}
+
+/*--about--*/
+
+#about .container{
+	max-width: 720px;
+	width: 90%;
+	padding: 20px 0px
+}
+
+.about-head h3{
+	color: rgba(0,0,0,0.8);
+}
+.about-head p{
+color:#6B6B6B;
+}
+.about-head h5{
+color:#E04444;
+}
+
+h4.about-sec-info{
+color: rgba(0,0,0,0.8);
+line-height: 1.5
+
+}
+p.about-sec-info span{
+color: rgba(0,0,0,0.8);
+}
+
+.about-icon-info h4{
+color:rgba(0,0,0,0.8);
+line-height: 1.5
+}
+.about-icon-info p{
+color: rgba(0,0,0,0.8);
 }

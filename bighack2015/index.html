@@ -17,6 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,500,700,600,800,300,100' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
     <link href="include/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="include/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="include/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,24 +60,8 @@
 </head>
 <body>
     <!--body-->
-    <ul class="side_nav">
-        <li>
-            <a class="scroll" href="#home"></a>
-        </li>
-        <li>
-            <a class="scroll" href="#about"></a>
-        </li>
-        <li>
-            <a class="scroll" href="#faq"></a>
-        </li>
-        <li>
-            <a class="scroll" href="#sponsors"></a>
-        </li>
-        <li>
-            <a class="scroll" href="#register"></a>
-        </li>
-    </ul>
     <div id="home" class="banner">
+        <div class="overlay-dark"> </div>
         <div class="container">
             <div class="top-header">
                 <div class="logo">
@@ -104,37 +89,35 @@
             </script>
             <!-- script-for-menu -->
             <div class="banner-info">
-                <h1>Big Hack<span style="font-size: 50%;"> 2015</span></h1>
-                <h3><a id="scrollreg" class="scroll" href="#register">Register</a></h3>
+                <h1>Big Hack <span style="font-size: 50%">2015</span></h1>
+                <div id="logistics"class="event-info">
+                    <div class="info-item">April 15</div>
+                    <div class="info-item">24 Hours</div>
+                    <div class="info-item">300+ Hackers</div>
+                </div>
+                <a id="scrollreg" class="scroll button" href="#about">Learn More</a>
+                <a id="scrollreg" class="scroll button important" href="#register">Register</a>
+
+
+                <div id="schools" class="event-info">
+                    <img class="info-img" src="http://logonoid.com/images/stanford-university-logo.png">
+                    <img class="info-img" src="http://vision.ucsf.edu/graphicimagingmodule/logos/ucseal_blu_gold.jpg">
+                </div>
                 <!-- <h3>Vivamus scelerisque elementum viverra. Donec accumsan dui quis lectus dictum, vestibulum interdum elit tempor. Donec rhoncus bibendum tempor.</h3> -->
             </div>
         </div>
     </div>
-    <div class="social-media flex" style="margin-top: -75px; flex-direction: row;">
-        <div class="social-grids flex" style="background-color: #018ADA; ">
-            <h2>April 4-5</h2>
-        </div>
-        <div class="social-grids flex" style="background-color: #3C5A98; border-left: .25em solid #fff;">
-            <h2>UC Berkeley</h2>
-        </div>
-        <div class="social-grids flex" style="background-color: #D13F3F; border-left: .25em solid #fff;">
-            <h2>Info</h2>
-        </div>
-        <div class="social-grids flex" style="background-color: #E95C93; border-left: .25em solid #fff;">
-            <h2>Info</h2>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    
+
+
     <div id="about" class="about">
-        <div class="container flex" style="height: 100vh;">
+        <div class="container flex" style="height: 60vh;">
             <div class="about-head">
                 <h3>What is Big Hack?</h3>
                 <p>Presented by Cal Hacks &amp TreeHacks</p>
             </div>
             <div class="about-sec">
                 <div class="col-md-10 col-md-offset-1 about-info">
-                    <h3 class="about-sec-info">Big Hack is an iconic annual 24 hour hackathon organized by the Cal Hacks and TreeHacks teams where 300 students from UC Berkeley and Stanford University come together to build amazing projects.</h3>
+                    <h4 class="about-sec-info">Big Hack is an iconic annual 24 hour hackathon organized by the Cal Hacks and TreeHacks teams where 300 students from UC Berkeley and Stanford University come together to build amazing projects.</h3>
                     <div class="about-grid">
                         <div class="about-icon-info">
                             <h4>The day begins on April 4th at 12:00pm with student bus arrivals, lunch, and company API presentations followed by 24 hours of hacking</h4>
@@ -152,7 +135,7 @@
             </div>
         </div>
     </div>
-    
+
     <div id="faq" class="skills">
         <div class="container flex">
             <div class="skills-head">
@@ -217,7 +200,7 @@
             </div>
         </div>
     </div>
-    
+
     <div id="sponsors" class="gallery">
         <div class="container flex">
             <div class="gallery-head">
@@ -472,14 +455,14 @@
 	<!-- <script type="text/javascript">
 		$(function() {
 			var boxheight = $('#longest').height();
-	
+
 			$(".skill-grid").css({
 	        		"height": boxheight
 	    		});
-	
+
 			$(window).resize(function(){
 	        		var boxheight = $('#longest').height();
-	        
+
 	        		$(".skill-grid").css({
 	            		"height": boxheight
 	        		});
@@ -494,11 +477,11 @@
 			$(".social-media").css({
         		"margin-top": socialfoot
     		});
-	
+
 			$(window).resize(function(){
 	        	var socialfoot = $('.social-media').height();
 	        	socialfoot *= -1;
-	
+
 				$(".social-media").css({
         			"margin-top": socialfoot
     			});
